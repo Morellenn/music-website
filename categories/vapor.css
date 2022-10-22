@@ -1,0 +1,44 @@
+/* style.css */ 
+
+/* Page background */
+* {
+    background-image: url(vaporbg2.jpg) ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Main title formatting */ 
+.main.header {
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+   # background:url(header.jpg)
+}
+
+/* Album title formatting */
+.title {
+    display:block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
+
+/* Album video formatting */
+iframe.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Album description formatting */
+.bio{
+    display: block;
+    text-align: center;
+    color: lightgoldenrodyellow;
+}
