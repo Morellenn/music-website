@@ -11,6 +11,7 @@
 /* Main flexbox formatting */ 
 .main {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .leftinfo {
@@ -41,6 +42,8 @@
 
 /* Album title formatting */
 .title {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,11 +53,13 @@
 
 /* Album video formatting */
 iframe.center {
- align-items: center;
+ #empty for now
 }
 
 /* Album description formatting */
 .bio{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     color: lightgoldenrodyellow;
 }
