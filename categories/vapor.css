@@ -29,6 +29,11 @@
     flex-wrap: wrap;
 }
 
+.flex-item {
+    flex: auto;
+    flex: 33.33%;
+}
+
 /* Main title formatting */ 
 .header {
     color: cornflowerblue;
@@ -38,6 +43,19 @@
     font-style: italic;
     text-decoration: underline;
    # background:url(header.jpg)
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 /* Album title formatting */
