@@ -12,11 +12,14 @@
 .main {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .leftinfo {
     flex: 33.33%;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .rightinfo {
@@ -32,6 +35,7 @@
 .flex-item {
     flex: auto;
     flex: 33.33%;
+    flex-wrap: wrap;
 }
 
 /* Main title formatting */ 
@@ -42,27 +46,18 @@
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
-   # background:url(header.jpg)
+   # background:url(header.jpg);
+    margin-bottom: -45px;
 }
 
-footer{
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    font-size: 40px;
-    color: cornflowerblue;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
-}
 
 /* Album title formatting */
 .title {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -30px;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: lightgoldenrodyellow;
@@ -70,14 +65,18 @@ footer{
 }
 
 /* Album video formatting */
-iframe.center {
- #empty for now
+iframe {
+    display: flex;
+    margin: 0 auto;
 }
 
 /* Album description formatting */
 .bio{
+    margin-top: 5px;
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
     color: lightgoldenrodyellow;
+    outline: auto;
 }
