@@ -1,7 +1,7 @@
 /* style.css */ 
 
 /* Page background */
-* {
+body {
     background-image: url(vaporbg2.jpg) ;
     background-repeat: no-repeat ;
     background-attachment: fixed;
@@ -72,11 +72,15 @@ iframe {
 
 /* Album description formatting */
 .bio{
-    margin-top: 5px;
+    margin: 5px 5px;
+    padding: 3px;
+    content: solid black;
     display: flex;
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
     color: lightgoldenrodyellow;
     outline: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:rgba(0,0,0, 0.6);
 }

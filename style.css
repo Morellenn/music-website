@@ -1,8 +1,11 @@
 /* style.css */ 
 
 /* Page background */
-* {
-    background-color: black;
+body {
+    background-image: url(background.gif) ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* Main title formatting */ 
@@ -27,3 +30,15 @@
 .link:hover{
     color: lightcoral;
 } 
+
+.descriptor{
+    margin-bottom: 5px;
+    padding: 1px;
+    content: solid black;
+    display: block;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    outline: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:rgba(0,0,0, 0.6);
+}
