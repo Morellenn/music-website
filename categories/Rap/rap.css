@@ -2,7 +2,7 @@
 
 /* Page background */
 body {
-    background-image: url(vaporbg2.jpg) ;
+    background-color: black ;    
     background-repeat: no-repeat ;
     background-attachment: fixed;
     background-size: cover;
